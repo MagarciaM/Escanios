@@ -77,6 +77,7 @@ public class Calculos {
                 
                 if (nombreMasVotos.equals(p.getNombre())) {
                     p.incrementarEscanios();
+                    break;
                 }
             }
         }
